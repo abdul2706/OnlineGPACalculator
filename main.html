@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1><center>GPA Calculator</center></h1>
+    <div id="mainDiv">
+        <table id="mainTable">
+            <tr class="row">
+                <th>Subjects</th>
+                <th>Expected Marks</th>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p></td>
+                <td><input class="subjectMarks" type="number" name="marksDSA" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p></td>
+                <td><input class="subjectMarks" type="number" name="marksDSALAB" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p></td>
+                <td><input class="subjectMarks" type="number" name="marksDCN" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p></td>
+                <td><input class="subjectMarks" type="number" name="marksDCNLAB" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p></td>
+                <td><input class="subjectMarks" type="number" name="marksOOAD" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p></td>
+                <td><input class="subjectMarks" type="number" name="marksCOA" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p>
+                <td><input class="subjectMarks" type="number" name="marksPE" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName"></p>
+                <td><input class="subjectMarks" type="number" name="marksPS" value="80" max="100" min="0"></td>
+            </tr>
+            <tr class="row">
+                <td><p class="subjectName">Total GPA</p>
+                <td><p id="totalGPA">4.00</p></td>
+            </tr>
+        </table>
+        <center>
+            <button id="buttonGPA">Calculate GPA</button>
+            <button id="buttonReset">Reset</button>
+        </center>
+    </div>
+</body>
+</html>
